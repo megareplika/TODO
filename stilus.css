@@ -5,6 +5,12 @@ main
         'c'
         't'
         ;
+    margin: auto;
+    text-decoration: none;
+}
+#cim,#alcim,#lista,#sajatnev
+{
+    margin: auto;
 }
 #cim
 {
@@ -32,4 +38,19 @@ main
 #sajatnev
 {
     text-align: center;
+}
+#todonev,#vegIdo
+{
+    height: 20px;
+}
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    min-height: 25px;
 }
