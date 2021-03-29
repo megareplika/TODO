@@ -21,6 +21,10 @@ main
 #lista
 {
     grid-area: t;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    margin-top: 1.5%;
+    padding: 15px;
 }
 #alcim
 {
