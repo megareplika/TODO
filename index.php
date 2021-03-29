@@ -13,6 +13,7 @@
             <div id="cim">Teendők</div>
             <div id="lista">
                 <div id="alcim">TODO lista</div>
+                <button id="btnBetolt">Betolt</button>
                 <div id="input">
                     <input type="text" id="todonev" name="todonev" placeholder="Teendő neve">
                     <input type="date" id="vegIdo" name="vegIdo">

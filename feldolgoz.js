@@ -2,8 +2,21 @@ $(document).ready(function () {
     $("#add").click(bezur);
     $("#elemlista").delegate("li .torol", torol);
     $("#elemlista").delegate("li .kesz", torol);
+    $("#btnBetolt").click(leszedDB);
 });
 
+function leszedDB() {
+     $.ajax({
+        type: 'GET',
+        url: "feldolgoz.php?mind = 1",
+        success: function (result) {
+            
+        },
+        error: function () {
+            alert("Nincs adat");
+        }
+    });
+}
 
 function bezur() {
     var ido = $("#vegIdo").val();
