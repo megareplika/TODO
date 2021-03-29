@@ -1,0 +1,35 @@
+main
+{
+    display: grid;
+    grid-template-areas:
+        'c'
+        't'
+        ;
+}
+#cim
+{
+    grid-area:c;
+    text-align: center;
+    font-weight: bold;
+}
+#lista
+{
+    grid-area: t;
+}
+#alcim
+{
+    text-align: center;
+}
+#input
+{
+    display: inline-block;
+}
+#add
+{
+    border-radius: 4px;
+    background-color: pink;
+}
+#sajatnev
+{
+    text-align: center;
+}

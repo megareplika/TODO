@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
+        <title>Todo - Barsi Péter</title>
         <meta charset="UTF-8">
-        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <main>
+            <div id="cim">Teendők</div>
+            <div id="lista">
+                <div id="alcim">TODO lista</div>
+                <form>
+                    <div id="input">
+                        <input type="text" id="todonev" name="todonev" placeholder="Teendő neve">
+                        <input type="date" id="vegIdo" name="vegIdo">
+                        <input type="submit" value="add" id="add" name="add">
+                    </div>
+                </form>
+                <div id="sajatnev">Barsi Péter</div>
+            </div>
+        </main>
     </body>
 </html>
